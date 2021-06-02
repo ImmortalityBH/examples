@@ -3,7 +3,9 @@
 
 #include "vgl.h"
 #include <time.h>
+#ifdef __linux__
 #include <sys/time.h>
+#endif
 
 class VermilionApplication
 {
